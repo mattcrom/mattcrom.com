@@ -1,17 +1,52 @@
 header {
-  display: block; text-align: left; width: auto;
-  font-weight: lighter;
-  padding-left: 10px;
-  line-height: 0.5;
+  position: absolute;
+  width: 241px;
+  height: 60px;
+  left: 50px;
+  top: 20px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  /* identical to box height */
+
+  color: #374235;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navbar */
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 35px;
+  right: 50px;
+  width: 100%;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  display: block;
+  font: Lato;
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  border-bottom: 3px solid #435517;
 }
 
 h1 {
   font-size: 50px;
-}
-
-body {
-  font: 20px Helvetica, sans-serif; color: #333;
-
 }
 
 article {
@@ -25,13 +60,4 @@ article {
 
 a {
   color: #dc8100; text-decoration: none;
-}
-
-a:hover {
-  color: #333; text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
 }
